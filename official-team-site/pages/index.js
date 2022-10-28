@@ -1,5 +1,6 @@
 import Link from "next/link";
-import MainTemplate from "./maintemplate";
+import MainTemplate from "./maintemplate/MainTemplate";
+
 
 
 export default function Home() {

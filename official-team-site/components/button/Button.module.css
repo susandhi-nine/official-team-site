@@ -1,0 +1,32 @@
+
+.ButtonGrid{
+    
+    font-size: 12px;
+    font-weight: bold;
+
+} 
+
+.ButtonGrid:hover{
+       /* border-radius: 33px; */
+       border: 1px solid var(--trust-blue-light);
+       background: rgb(255 255 255 / 24%);
+       border: rgb(255 255 255 / 24%);
+       font-size: 12px;
+       font-weight: bold;
+       opacity: 1;
+} 
+
+.conditionButton{
+    background: #1652f0 ;
+    color:"white";
+    font-size: 12px;
+    border-color: none;
+}
+.conditionButton:hover{
+    background: #1652f0 ;
+    color:"white";
+    font-size: 12px;
+    opacity: 0.8;
+    border-color: none;
+}
+

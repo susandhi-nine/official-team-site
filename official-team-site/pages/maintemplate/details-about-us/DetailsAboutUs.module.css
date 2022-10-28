@@ -1,0 +1,21 @@
+.DetailsAboutUsHeading{
+font-size: xx-large;
+font-weight: bold;
+color: black;
+text-align: center;
+}
+
+.DAUsubHeading{
+    text-align: center;
+    color:grey;
+}
+
+.counts{
+ font-size: 60px;
+ font-weight: bolder;
+ color: #5A5A5A;
+}
+
+.detailsText{
+    color:red;
+}
