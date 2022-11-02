@@ -6,7 +6,7 @@ export default function Buttons(props) {
   return (
     <>
       {
-        props.value == "Know more"
+        props.id == "blue"
           ?
           <Button
           style={{color:"white"}}
@@ -17,7 +17,7 @@ export default function Buttons(props) {
           :
 
           <Button
-            className={`${"text-dark p-3 "} ${styles.ButtonGrid}`}
+            className={`${"text-white p-3 "} ${styles.ButtonGrid}`}
           >
             {props.value}
           </Button>

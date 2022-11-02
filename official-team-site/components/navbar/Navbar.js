@@ -10,7 +10,7 @@ export default function Navbar(){
 
   
   return(
-    <Grid container md={12} className={"p-5"}>
+    <Grid container md={12}>
       <Grid item md={3}>
  Logo
       </Grid>

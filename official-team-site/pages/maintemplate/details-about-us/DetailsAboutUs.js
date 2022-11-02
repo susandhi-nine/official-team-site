@@ -28,6 +28,7 @@ export default function DetailsAboutUs(){
     </Grid>
     <Grid md={12} sm={12} xs={12} style={{textAlign:"center"}}>
      <Button
+     id={"blue"}
      value={"Know more"}
      />
     </Grid>
