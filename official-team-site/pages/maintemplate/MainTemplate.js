@@ -6,6 +6,7 @@ import HeaderInfo from "./header-info/HeaderInfo"
 import MemberCompanies from "./member-companies/MemberCompanies";
 import ProductService from "./products & services/ProductsServices";
 import GetInTouch from "./get-In-touch/GetInTouch";
+import Footer from "../../components/footer/Footer";
 
 export default function MainTemplate() {
     return (
@@ -29,6 +30,10 @@ export default function MainTemplate() {
 
                 <Grid md={12}>
                     <GetInTouch />
+                </Grid>
+
+                <Grid md={12}>
+                    <Footer />
                 </Grid>
             </Grid>
 
